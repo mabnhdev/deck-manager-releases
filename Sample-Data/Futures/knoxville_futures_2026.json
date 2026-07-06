@@ -1,0 +1,1183 @@
+{
+  "name": "2026 TYR Futures Championships \u2013 Knoxville",
+  "host_club": "USA Swimming",
+  "location": "Allan Jones Intercollegiate Aquatic Center, 2200 Andy Holt Ave, Knoxville, TN 37996",
+  "meet_referee": "Mike Trexler",
+  "admin_referee": "Aimee McMillan",
+  "sanction_number": "TBD",
+  "dates": "July 29 \u2013 August 1, 2026",
+  "logo_path": "M:/Python Scripts/deck-manager/Sample-Data/Futures/tyr_futures_logo.png",
+  "sessions": [
+    {
+      "id": "5894c9cc-91ad-4e5e-bb88-afc3a3d2888d",
+      "name": "Day 1 Prelims \u2013 Wednesday",
+      "session_type": "Prelims",
+      "date": "2026-07-29",
+      "day": "Wednesday",
+      "start_time": "9:00 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "3d4a374e-8ca2-446e-bda5-0dc8786812db",
+          "pool_number": 1,
+          "name": "Pool 1 \u2014 Women",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 1,
+              "description": "Open Women 200m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 3,
+              "description": "Open Women 100m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 5,
+              "description": "Open Women 200m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 7: ALL heats of Women's 200m Medley Relay swim here in Prelims, after Event 6 (Men's 200m Butterfly).",
+              "number": 7,
+              "description": "Open Women 200m Medley Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 9: Women's 800m FR \u2014 Timed Finals. All but fastest heat swim here, slowest to fastest. Positive check-in required.",
+              "number": 9,
+              "description": "Open Women 800m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Women"
+        },
+        {
+          "id": "30e8647d-a633-48d2-9da1-fbc5d4e408fa",
+          "pool_number": 2,
+          "name": "Pool 2 \u2014 Men",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 2,
+              "description": "Open Men 200m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 4,
+              "description": "Open Men 100m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 6,
+              "description": "Open Men 200m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 8: ALL heats of Men's 200m Medley Relay swim here in Prelims, after Event 6 (Men's 200m Butterfly).",
+              "number": 8,
+              "description": "Open Men 200m Medley Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 10: Men's 1500m FR \u2014 Timed Finals. All but fastest heat swim here, alternating with women's 800. Positive check-in required.",
+              "number": 10,
+              "description": "Open Men 1500m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Men"
+        }
+      ],
+      "notes": "Positive check-in required for 800m and 1500m Freestyle (Events 9 and 10). Check-in deadline: 15 minutes after conclusion of technical meeting (Day 1 scratches by email/text to Admin Referee or Resolution Table). Events 7 and 8 (200m Medley Relay, ALL heats) swim in this session immediately after Event 6 (Men's 200m Butterfly). Events 9 (Women's 800m FR) and 10 (Men's 1500m FR) swim as timed finals in this session, slowest heats only \u2014 fastest heat of each advances to Finals. Relay cards due to Admin Referee by 10:30 AM.",
+      "locked": false
+    },
+    {
+      "id": "dd96a865-6573-446e-bfbc-027eb79fbd44",
+      "name": "Day 1 Finals \u2013 Wednesday",
+      "session_type": "Finals",
+      "date": "2026-07-29",
+      "day": "Wednesday",
+      "start_time": "5:30 PM",
+      "warmup_time": "4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "90aeeb48-4a9e-4294-984b-1cba43cfebb2",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 1,
+              "description": "Open Women 200m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 2,
+              "description": "Open Men 200m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 3,
+              "description": "Open Women 100m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 4,
+              "description": "Open Men 100m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 5,
+              "description": "Open Women 200m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 6,
+              "description": "Open Men 200m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 9 fastest heat only \u2014 swims in Finals per distance event rule.",
+              "number": 9,
+              "description": "Open Women 800m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "_comment": "Event 10 fastest heat only \u2014 swims in Finals per distance event rule.",
+              "number": 10,
+              "description": "Open Men 1500m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "_comment": "Event 11: ALL heats of Women's 200m Freestyle Relay swim in Finals after Event 10.",
+              "number": 11,
+              "description": "Open Women 200m Freestyle Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 12: ALL heats of Men's 200m Freestyle Relay swim in Finals after Event 10.",
+              "number": 12,
+              "description": "Open Men 200m Freestyle Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "Finals order: D, C, B, A. C/D Finals limited to top 18-Under swimmers not in A/B Finals. Events 11 and 12 (200m Freestyle Relay, ALL heats) swim in this session after Event 10 (Men's 1500m FR). Fastest heat of Women's 800m FR (Event 9) and Men's 1500m FR (Event 10) also swim in this session. Relay cards due to Admin Referee by 6:30 PM.",
+      "locked": false
+    },
+    {
+      "id": "6a5c1463-9cbf-4674-bbfe-f9a4c93bf207",
+      "name": "Day 2 Prelims \u2013 Thursday",
+      "session_type": "Prelims",
+      "date": "2026-07-30",
+      "day": "Thursday",
+      "start_time": "9:00 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "870fe05e-013c-4045-ad70-7962bccd4649",
+          "pool_number": 1,
+          "name": "Pool 1 \u2014 Men",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 14,
+              "description": "Open Men 100m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 16,
+              "description": "Open Men 400m Individual Medley",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 18,
+              "description": "Open Men 100m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 20,
+              "description": "Open Men 50m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 22: slowest heats of Men's 800m Freestyle Relay in Prelims; fastest 2 heats in Finals.",
+              "number": 22,
+              "description": "Open Men 800m Freestyle Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Men"
+        },
+        {
+          "id": "61131c08-b406-4057-a6c1-a2e723b7daae",
+          "pool_number": 2,
+          "name": "Pool 2 \u2014 Women",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 13,
+              "description": "Open Women 100m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 15,
+              "description": "Open Women 400m Individual Medley",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 17,
+              "description": "Open Women 100m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 19,
+              "description": "Open Women 50m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 21: slowest heats of Women's 800m Freestyle Relay in Prelims; fastest 2 heats in Finals.",
+              "number": 21,
+              "description": "Open Women 800m Freestyle Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Women"
+        }
+      ],
+      "notes": "Scratches due 30 minutes after conclusion of previous evening's finals. Slowest heats of Events 21 (Women's 800m Freestyle Relay) and 22 (Men's 800m Freestyle Relay) swim in this session. Fastest 2 heats of each relay advance to Day 2 Finals. Relay cards due to Admin Referee by 10:30 AM.",
+      "locked": false
+    },
+    {
+      "id": "82a54d8e-5327-4f01-aeca-9316e03f690a",
+      "name": "Day 2 Finals \u2013 Thursday",
+      "session_type": "Finals",
+      "date": "2026-07-30",
+      "day": "Thursday",
+      "start_time": "5:30 PM",
+      "warmup_time": "4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "46839995-9bbe-4f1f-b558-27dfe3b258de",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 13,
+              "description": "Open Women 100m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 14,
+              "description": "Open Men 100m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 15,
+              "description": "Open Women 400m Individual Medley",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 16,
+              "description": "Open Men 400m Individual Medley",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 17,
+              "description": "Open Women 100m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 18,
+              "description": "Open Men 100m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 19,
+              "description": "Open Women 50m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 20,
+              "description": "Open Men 50m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Women's 800m Freestyle Relay swim at end of Finals.",
+              "number": 21,
+              "description": "Open Women 800m Freestyle Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Men's 800m Freestyle Relay swim at end of Finals.",
+              "number": 22,
+              "description": "Open Men 800m Freestyle Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "Finals order: D, C, B, A. C/D Finals limited to top 18-Under swimmers not in A/B Finals. Fastest 2 heats of Events 21 (Women's 800m Freestyle Relay) and 22 (Men's 800m Freestyle Relay) swim at the end of this session. Relay cards due to Admin Referee by 6:30 PM.",
+      "locked": false
+    },
+    {
+      "id": "c4862703-45df-45a8-ba11-00afc6eeae50",
+      "name": "Day 3 Prelims \u2013 Friday",
+      "session_type": "Prelims",
+      "date": "2026-07-31",
+      "day": "Friday",
+      "start_time": "9:00 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "03ecaf6b-1951-466a-91b1-040e9e64e7e2",
+          "pool_number": 1,
+          "name": "Pool 1 \u2014 Women",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 23,
+              "description": "Open Women 50m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 25,
+              "description": "Open Women 400m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 27,
+              "description": "Open Women 100m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 29,
+              "description": "Open Women 200m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 31: slowest heats of Women's 400m Freestyle Relay in Prelims; fastest 2 heats in Finals.",
+              "number": 31,
+              "description": "Open Women 400m Freestyle Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Women"
+        },
+        {
+          "id": "3a8050b3-6997-4ac1-86e8-785642060abe",
+          "pool_number": 2,
+          "name": "Pool 2 \u2014 Men",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 24,
+              "description": "Open Men 50m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 26,
+              "description": "Open Men 400m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 28,
+              "description": "Open Men 100m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 30,
+              "description": "Open Men 200m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 32: slowest heats of Men's 400m Freestyle Relay in Prelims; fastest 2 heats in Finals.",
+              "number": 32,
+              "description": "Open Men 400m Freestyle Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Men"
+        }
+      ],
+      "notes": "Scratches due 30 minutes after conclusion of previous evening's finals. Slowest heats of Events 31 (Women's 400m Freestyle Relay) and 32 (Men's 400m Freestyle Relay) swim in this session. Fastest 2 heats of each relay advance to Day 3 Finals. Relay cards due to Admin Referee by 10:30 AM.",
+      "locked": false
+    },
+    {
+      "id": "3fcccd1b-c04a-4923-86a7-743382e3be1d",
+      "name": "Day 3 Finals \u2013 Friday",
+      "session_type": "Finals",
+      "date": "2026-07-31",
+      "day": "Friday",
+      "start_time": "5:30 PM",
+      "warmup_time": "4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "54629e99-63a2-488a-8866-a73894dd41a4",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 23,
+              "description": "Open Women 50m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 24,
+              "description": "Open Men 50m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 25,
+              "description": "Open Women 400m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 26,
+              "description": "Open Men 400m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 27,
+              "description": "Open Women 100m Butterfly",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 28,
+              "description": "Open Men 100m Butterfly",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 29,
+              "description": "Open Women 200m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 30,
+              "description": "Open Men 200m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Women's 400m Freestyle Relay swim at end of Finals.",
+              "number": 31,
+              "description": "Open Women 400m Freestyle Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Men's 400m Freestyle Relay swim at end of Finals.",
+              "number": 32,
+              "description": "Open Men 400m Freestyle Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "Finals order: D, C, B, A. C/D Finals limited to top 18-Under swimmers not in A/B Finals. Fastest 2 heats of Events 31 (Women's 400m Freestyle Relay) and 32 (Men's 400m Freestyle Relay) swim at the end of this session. Relay cards due to Admin Referee by 6:30 PM.",
+      "locked": false
+    },
+    {
+      "id": "a46ddb3f-4b89-4d72-b7ba-076bf54bcc48",
+      "name": "Day 4 Prelims \u2013 Saturday",
+      "session_type": "Prelims",
+      "date": "2026-08-01",
+      "day": "Saturday",
+      "start_time": "9:00 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "a8952fd0-e628-44b9-a279-d3e8bfc5d9c0",
+          "pool_number": 1,
+          "name": "Pool 1 \u2014 Men",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 34,
+              "description": "Open Men 200m Individual Medley",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 36,
+              "description": "Open Men 50m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 38,
+              "description": "Open Men 200m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 40,
+              "description": "Open Men 50m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 44 non-finals heats only: Men's 400m Medley Relay slowest heats swim after Event 40. Fastest 2 heats swim in Finals.",
+              "number": 44,
+              "description": "Open Men 400m Medley Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 42: Men's 800m FR \u2014 Timed Finals. All but fastest heat swim here alternating with Event 41 (Women's 1500m). Fastest heat advances to Finals.",
+              "number": 42,
+              "description": "Open Men 800m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Men"
+        },
+        {
+          "id": "a99c0287-8893-4657-8daa-a90c535644e4",
+          "pool_number": 2,
+          "name": "Pool 2 \u2014 Women",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 33,
+              "description": "Open Women 200m Individual Medley",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 35,
+              "description": "Open Women 50m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 37,
+              "description": "Open Women 200m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 39,
+              "description": "Open Women 50m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 43 non-finals heats only: Women's 400m Medley Relay slowest heats swim after Event 40. Fastest 2 heats swim in Finals.",
+              "number": 43,
+              "description": "Open Women 400m Medley Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 41: Women's 1500m FR \u2014 Timed Finals. All but fastest heat swim here alternating with Event 42 (Men's 800m). Fastest heat advances to Finals.",
+              "number": 41,
+              "description": "Open Women 1500m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": "Women"
+        }
+      ],
+      "notes": "Scratches due 30 minutes after conclusion of previous evening's finals. Events 41 (Women's 1500m FR) and 42 (Men's 800m FR) swim as timed finals in this session \u2014 all but fastest heat, slowest to fastest alternating genders. Fastest heat of each advances to Finals. Non-finals heats of Events 43 (Women's 400m Medley Relay) and 44 (Men's 400m Medley Relay) swim in this session after Event 40 (Men's 50m Breaststroke). Relay cards due to Admin Referee by 10:30 AM.",
+      "locked": false
+    },
+    {
+      "id": "3c863c25-9b3c-4cbe-a8f6-259ffcefb162",
+      "name": "Day 4 Finals \u2013 Saturday",
+      "session_type": "Finals",
+      "date": "2026-08-01",
+      "day": "Saturday",
+      "start_time": "5:30 PM",
+      "warmup_time": "4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "842c15df-9b40-4a3b-9dff-ed57932550bb",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "Open"
+          ],
+          "events": [
+            {
+              "number": 33,
+              "description": "Open Women 200m Individual Medley",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 34,
+              "description": "Open Men 200m Individual Medley",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 35,
+              "description": "Open Women 50m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 36,
+              "description": "Open Men 50m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 37,
+              "description": "Open Women 200m Backstroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 38,
+              "description": "Open Men 200m Backstroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 39,
+              "description": "Open Women 50m Breaststroke",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 40,
+              "description": "Open Men 50m Breaststroke",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Event 41 fastest heat only \u2014 swims in Finals per distance event rule.",
+              "number": 41,
+              "description": "Open Women 1500m Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "_comment": "Event 42 fastest heat only \u2014 swims in Finals per distance event rule.",
+              "number": 42,
+              "description": "Open Men 800m Freestyle",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Women's 400m Medley Relay swim at end of Finals.",
+              "number": 43,
+              "description": "Open Women 400m Medley Relay",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "_comment": "Fastest 2 seeded heats of Men's 400m Medley Relay swim at end of Finals.",
+              "number": 44,
+              "description": "Open Men 400m Medley Relay",
+              "gender": "M",
+              "age_group": "Open",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "Finals order: D, C, B, A. C/D Finals limited to top 18-Under swimmers not in A/B Finals. Fastest heat of Women's 1500m FR (Event 41) and Men's 800m FR (Event 42) swim in this session. Fastest 2 heats of Events 43 (Women's 400m Medley Relay) and 44 (Men's 400m Medley Relay) swim at end of session. Relay cards due to Admin Referee by 6:30 PM.",
+      "locked": false
+    }
+  ],
+  "officials": [],
+  "signups": [],
+  "deck_assignments": [],
+  "cj_task_defs": [],
+  "cj_task_assignments": [],
+  "cj_scope_overrides": {},
+  "tlcj_rotation_eligible": {},
+  "deck_task_defs": [],
+  "deck_task_assignments": [],
+  "deck_scope_overrides": {},
+  "event_library": [],
+  "shirts_enabled": false,
+  "shirt_min_sessions": 4,
+  "shirt_bonus_session_ids": [],
+  "shirt_count_time_trials": false,
+  "radios_enabled": false,
+  "num_radios": 0,
+  "radio_labels": [],
+  "radio_pool_channels": {},
+  "radio_assignments": [],
+  "own_radio_equipment": [],
+  "radio_roles": [
+    "MR",
+    "AR",
+    "AO",
+    "TLCJ",
+    "CJ",
+    "DR"
+  ],
+  "radio_unavailable": [],
+  "auto_assign_targets": {}
+}

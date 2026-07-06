@@ -1,0 +1,451 @@
+{
+  "name": "2026 Example Long Course Age Group Championships",
+  "host_club": "Example Swim Club",
+  "location": "Example Aquatic Center, 123 Main St, City, ST 00000",
+  "meet_referee": "John Doe",
+  "admin_referee": "TBD",
+  "sanction_number": "XX26001",
+  "dates": "March 19-22, 2026",
+  "logo_path": "",
+  "_sessions_comment": [
+    "sessions: ordered list of all sessions in chronological order.",
+    "session_type must be exactly one of: 'Prelims', 'Finals', 'Timed Finals', 'Time Trials'",
+    "day must be the full day name: 'Thursday', 'Friday', 'Saturday', 'Sunday'",
+    "date must be ISO format 'YYYY-MM-DD' — this is what the app itself writes to the file.",
+    "start_time and warmup_time: 12-hour format with AM/PM, e.g. '9:00 AM'",
+    "field order on a session object: id, name, session_type, date, day, start_time, warmup_time, pool_sessions, notes, locked",
+    "pool_sessions: one entry per SIMULTANEOUS PHYSICAL pool in this session.",
+    "  DEFAULT IS ONE POOL. Only split into multiple pool_sessions if the facility description",
+    "  explicitly supports simultaneous multi-pool competition (rare for Long Course/LCM venues;",
+    "  more common for Short Course/SCY facilities that can be split into two courses).",
+    "  When a genuine split is confirmed, alternate which gender is Pool 1 across successive",
+    "  Timed Finals sessions.",
+    "field order on a pool_session object: id, pool_number, name, age_groups, events, num_lanes, course, notes",
+    "pool_session.num_lanes: typically 8 or 10.",
+    "pool_session.course: 'SCY' (short course yards), 'SCM' (short course meters), or 'LCM' (long course meters).",
+    "  Determine from the meet's title/classification and qualifying-time-standards table — do not",
+    "  default to SCY. A 'Long Course' meet with meter-based qualifying times swims LCM throughout.",
+    "pool_session.age_groups: list of age group strings, e.g. ['11-12', '13-14'] or ['10 & Under']."
+  ],
+  "_events_comment": [
+    "Each event dict in pool_session.events MUST have (in this key order):",
+    "  'number', 'description', 'gender', 'age_group', 'course', 'is_relay',",
+    "  'relay_type' (only if is_relay), 'deck_seeded', 'fastest_heat_finals'",
+    "  'description' format: '{age_group} {Girls|Boys|Mixed} {distance}{course} {stroke}'",
+    "    e.g. '13-14 Girls 100M Breaststroke'. For Mixed exhibition events omit Girls/Boys.",
+    "  'gender': 'F' for Girls/Women, 'M' for Boys/Men, 'Mixed' for combined-gender exhibition events.",
+    "  'deck_seeded': true ONLY for events explicitly in the sanction's positive check-in table —",
+    "    never inferred purely from event distance.",
+    "  'fastest_heat_finals': true when only the fastest checked-in heat(s) of an event advance to a",
+    "    Finals session while remaining heats swim elsewhere (prelims / end of an earlier session).",
+    "EVENTS SPLIT ACROSS HEATS: if the sanction's Order of Events lists the same event number more",
+    "  than once with different heat groupings (e.g. 'Heats 1-3' then 'Heats 4+', or '17/1','17/2',",
+    "  '17/3','17/4+' interspersed among other events), create one event dict PER OCCURRENCE, all",
+    "  sharing the same 'number', placed in their literal Order-of-Events position, with the heat",
+    "  label appended to 'description' in parentheses, e.g. '11-12 Girls 400M IM (Heats 1-3)'.",
+    "EVENTS NUMBERED IN ONE BLOCK BUT SWUM IN ANOTHER: some events are assigned a number within one",
+    "  session's Order of Events table but the sanction narrative states they're actually contested",
+    "  in a different session (e.g. an age group's 200 back/fly/breast numbered in an afternoon Timed",
+    "  Finals block but actually swum interspersed with that evening's Finals). Place the event ONLY",
+    "  in the session where it is actually swum.",
+    "BREAKS: scheduled breaks in the Order of Events must appear as their own event-list entries:",
+    "  {'number': 0, 'description': '10-minute break', 'gender': '', 'is_relay': false,",
+    "   'relay_type': null, 'is_break': true, 'break_minutes': 10} — positioned exactly where the",
+    "  break occurs. This exact shape is required for the app to display it correctly.",
+    "EXHIBITION / PARA / MIXED EVENTS: include non-scored Mixed-gender exhibition events (e.g. Para",
+    "  events) as real event entries at their correct position, using gender: 'Mixed'.",
+    "For Finals sessions: repeat the same event numbers as the corresponding Prelims.",
+    "For a genuinely split multi-pool Timed Finals session: each pool_session only contains its own",
+    "  gender's events.",
+    "Girls events have odd numbers, Boys events have even numbers (typical USA Swimming convention).",
+    "Relays should include relay_type. Medley Relays and Freestyle Relays are the two types."
+  ],
+  "sessions": [
+    {
+      "id": "USE-uuid4-HERE-1",
+      "name": "Thursday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-03-19",
+      "day": "Thursday",
+      "start_time": "3:00 PM",
+      "warmup_time": "1:30 PM",
+      "pool_sessions": [
+        {
+          "id": "USE-uuid4-HERE-2",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13-14",
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 1,
+              "description": "13-14 Girls 800M Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 2,
+              "description": "13-14 Boys 800M Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 3,
+              "description": "11-12 Girls 400M IM (Heats 1-3)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 4,
+              "description": "11-12 Boys 400M IM (Heats 1-3)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 5,
+              "description": "13-14 Girls 800M Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 6,
+              "description": "13-14 Boys 800M Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 3,
+              "description": "11-12 Girls 400M IM (Heats 4+)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 4,
+              "description": "11-12 Boys 400M IM (Heats 4+)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "Single-pool session (one competition pool — most facilities, especially Long Course venues, only have one). Positive check-in required. 11-12 400M IM: fastest (up to) 3 heats swim slow to fast alternating girls/boys (heats 1-3, shown as their own event entries); additional heats (4+) swim fast to slow alternating girls/boys later in the same session (also its own event entries, same event number).",
+      "locked": false
+    },
+    {
+      "id": "USE-uuid4-HERE-3",
+      "name": "Friday Preliminaries",
+      "session_type": "Prelims",
+      "date": "2026-03-20",
+      "day": "Friday",
+      "start_time": "8:30 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "USE-uuid4-HERE-4",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 7,
+              "description": "13-14 Girls 200M Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 8,
+              "description": "13-14 Boys 200M Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 13,
+              "description": "13-14 Girls 400M Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 14,
+              "description": "13-14 Boys 400M Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 15,
+              "description": "13-14 Girls 400M Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 16,
+              "description": "13-14 Boys 400M Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 Preliminaries. 10-minute scheduled break shown as its own event entry between events 14 and 15/16 (see 'Breaks' in the prompt). 400M Freestyle Relay: fastest heat of girls & boys relay teams swims in Friday Finals — remaining heats swim here at the end of prelims.",
+      "locked": false
+    },
+    {
+      "id": "USE-uuid4-HERE-5",
+      "name": "Friday Finals",
+      "session_type": "Finals",
+      "date": "2026-03-20",
+      "day": "Friday",
+      "start_time": "6:00 PM",
+      "warmup_time": "5:00 PM",
+      "pool_sessions": [
+        {
+          "id": "USE-uuid4-HERE-6",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13-14",
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 7,
+              "description": "13-14 Girls 200M Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 8,
+              "description": "13-14 Boys 200M Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 17,
+              "description": "11-12 Girls 200M Backstroke (Heat 1)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 18,
+              "description": "11-12 Boys 200M Backstroke (Heat 1)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 13,
+              "description": "13-14 Girls 400M Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 14,
+              "description": "13-14 Boys 400M Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 901,
+              "description": "13-14 Para Mixed 100M Event",
+              "gender": "Mixed",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 15,
+              "description": "13-14 Girls 400M Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 16,
+              "description": "13-14 Boys 400M Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "LCM",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 17,
+              "description": "11-12 Girls 200M Backstroke (Heat 4+)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 18,
+              "description": "11-12 Boys 200M Backstroke (Heat 4+)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "LCM",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "LCM",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 Finals interspersed with 11-12 200M Backstroke, an event numbered in the afternoon Timed Finals block but actually swum here per the sanction narrative — up to 3 fastest checked-in heats swim here (shown as separate 'Heat 1'/'Heat 2'/'Heat 3' entries, only heats 1 and 4+ shown in this trimmed example), heats 4+ at the end. A non-scored, no-fee 13-14 Para Mixed 100M Event is contested during this session. 10-minute break before the relay. Fastest heat of the 400M Freestyle Relay swims here.",
+      "locked": false
+    }
+  ],
+  "_fixed_fields_comment": "The following fields are always present with these exact values, in this order, for a new meet.",
+  "officials": [],
+  "signups": [],
+  "deck_assignments": [],
+  "cj_task_defs": [],
+  "cj_task_assignments": [],
+  "cj_scope_overrides": {},
+  "tlcj_rotation_eligible": {},
+  "deck_task_defs": [],
+  "deck_task_assignments": [],
+  "deck_scope_overrides": {},
+  "event_library": [],
+  "shirts_enabled": false,
+  "shirt_min_sessions": 4,
+  "shirt_bonus_session_ids": [],
+  "shirt_count_time_trials": false,
+  "radios_enabled": false,
+  "num_radios": 0,
+  "radio_labels": [],
+  "radio_pool_channels": {},
+  "radio_assignments": [],
+  "own_radio_equipment": [],
+  "radio_roles": [
+    "MR",
+    "AR",
+    "AO",
+    "TLCJ",
+    "CJ",
+    "DR"
+  ],
+  "radio_unavailable": [],
+  "auto_assign_targets": {}
+}

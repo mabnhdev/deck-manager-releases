@@ -1,0 +1,1844 @@
+{
+  "name": "2026 NCS SC Age Group Championships",
+  "host_club": "TAC Titans",
+  "location": "Triangle Aquatic Center, 275 Convention Drive, Cary, NC 27511",
+  "meet_referee": "Trish Martin",
+  "admin_referee": "Jeffrey Childs",
+  "sanction_number": "NC26028",
+  "dates": "February 26-March 1, 2026",
+  "logo_path": "M:/Python Scripts/deck-manager/Sample-Data/SC-Age-Group-Champs/nc_swimming_logo.png",
+  "sessions": [
+    {
+      "id": "d1517279-8018-426a-a0ba-26507a5e3e10",
+      "name": "Thursday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-26",
+      "day": "Thursday",
+      "start_time": "5:30 PM",
+      "warmup_time": "4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "bdaf2fd3-2373-4488-8d36-b1db0c389158",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14",
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 1,
+              "description": "13-14 Girls 1000Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 2,
+              "description": "13-14 Boys 1000Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 3,
+              "description": "13-14 Girls 100Y Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 4,
+              "description": "13-14 Boys 100Y Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 5,
+              "description": "11-12 Girls 400Y Individual Medley (Heats 1-3)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 6,
+              "description": "11-12 Boys 400Y Individual Medley (Heats 1-3)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 7,
+              "description": "13-14 Girls 800Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 8,
+              "description": "13-14 Boys 800Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 5,
+              "description": "11-12 Girls 400Y Individual Medley (Heats 4+)",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 6,
+              "description": "11-12 Boys 400Y Individual Medley (Heats 4+)",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "Single-pool session. 13-14 1000Y Freestyle and 11-12 400Y IM are positive-check-in events (check-in 4:45 PM). 11-12 400Y IM swims in two heat groups within this session: fastest 24 (Heats 1-3) swim first, remaining heats (Heats 4+) swim after the 13-14 800Y Freestyle Relay. 13-14 100Y IM is a timed final (swum as 100Y despite qualifying via 200Y IM time).",
+      "locked": false
+    },
+    {
+      "id": "bf49b791-7c84-46db-8fe7-a307c19ce7bf",
+      "name": "Friday Preliminaries",
+      "session_type": "Prelims",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "8:30 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "f953b7cf-7e85-43ee-a245-4b3d9d2703bc",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 9,
+              "description": "13-14 Girls 200Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 10,
+              "description": "13-14 Boys 200Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 11,
+              "description": "13-14 Girls 100Y Breaststroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 12,
+              "description": "13-14 Boys 100Y Breaststroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 13,
+              "description": "13-14 Girls 100Y Butterfly",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 14,
+              "description": "13-14 Boys 100Y Butterfly",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 15,
+              "description": "13-14 Girls 400Y Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 16,
+              "description": "13-14 Boys 400Y Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 400Y IM check-in deadline 8:45 AM Friday; fastest 2 heats circle-seeded.",
+      "locked": false
+    },
+    {
+      "id": "c3afc01a-7cad-4518-b9f6-b01a182c9aed",
+      "name": "Friday Afternoon Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "1:00 PM",
+      "warmup_time": "12:00 PM",
+      "pool_sessions": [
+        {
+          "id": "ba40e634-2c34-433e-8457-72d775ec927e",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 43,
+              "description": "11-12 Girls 200Y Freestyle",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 44,
+              "description": "11-12 Boys 200Y Freestyle",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 45,
+              "description": "11-12 Girls 50Y Breaststroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 46,
+              "description": "11-12 Boys 50Y Breaststroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 47,
+              "description": "11-12 Girls 100Y Butterfly",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 48,
+              "description": "11-12 Boys 100Y Butterfly",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 49,
+              "description": "11-12 Girls 100Y Individual Medley",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 50,
+              "description": "11-12 Boys 100Y Individual Medley",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 51,
+              "description": "11-12 Girls 200Y Backstroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 52,
+              "description": "11-12 Boys 200Y Backstroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 53,
+              "description": "11-12 Girls 400Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 54,
+              "description": "11-12 Boys 400Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "c3a739d5-bf13-443b-86b3-41dea9695946",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10 & Under"
+          ],
+          "events": [
+            {
+              "number": 81,
+              "description": "10 & Under Girls 200Y Freestyle",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 82,
+              "description": "10 & Under Boys 200Y Freestyle",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 83,
+              "description": "10 & Under Girls 50Y Breaststroke",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 84,
+              "description": "10 & Under Boys 50Y Breaststroke",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 85,
+              "description": "10 & Under Girls 100Y Butterfly",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 86,
+              "description": "10 & Under Boys 100Y Butterfly",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 87,
+              "description": "10 & Under Girls 100Y Individual Medley",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 88,
+              "description": "10 & Under Boys 100Y Individual Medley",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "Genuine two-pool split (venue's 50m bulkhead pool configured into two 8-lane 25Y courses run simultaneously). Pool 1 = 11-12; Pool 2 = 10 & Under. 11-12 400Y Freestyle Relay check-in 12:30 PM or 30 min before session start.",
+      "locked": false
+    },
+    {
+      "id": "de92719d-dbe0-43ac-8b6e-d7e0cbc9ed18",
+      "name": "Friday Finals",
+      "session_type": "Finals",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "not before 5:30 PM",
+      "warmup_time": "not before 4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "9c6474b3-d55f-4c1f-b04d-e862e3ae82a7",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 9,
+              "description": "13-14 Girls 200Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 10,
+              "description": "13-14 Boys 200Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 11,
+              "description": "13-14 Girls 100Y Breaststroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 12,
+              "description": "13-14 Boys 100Y Breaststroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 13,
+              "description": "13-14 Girls 100Y Butterfly",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 14,
+              "description": "13-14 Boys 100Y Butterfly",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 15,
+              "description": "13-14 Girls 400Y Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 16,
+              "description": "13-14 Boys 400Y Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 17,
+              "description": "13-14 Girls 400Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 18,
+              "description": "13-14 Boys 400Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 400Y Freestyle Relay swims only in Finals (check-in end of prelims; relay cards due 5:30 PM).",
+      "locked": false
+    },
+    {
+      "id": "25e1a82f-4c37-4643-b475-eb6eb9a01a84",
+      "name": "Saturday Preliminaries",
+      "session_type": "Prelims",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "8:30 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "83b986ab-4e06-43c9-bdc9-f10603ccee99",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 19,
+              "description": "13-14 Girls 200Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 20,
+              "description": "13-14 Boys 200Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "5-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 5
+            },
+            {
+              "number": 21,
+              "description": "13-14 Girls 200Y Butterfly",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 22,
+              "description": "13-14 Boys 200Y Butterfly",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 23,
+              "description": "13-14 Girls 50Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 24,
+              "description": "13-14 Boys 50Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 25,
+              "description": "13-14 Girls 200Y Breaststroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 26,
+              "description": "13-14 Boys 200Y Breaststroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 27,
+              "description": "13-14 Girls 100Y Backstroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 28,
+              "description": "13-14 Boys 100Y Backstroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 29,
+              "description": "13-14 Girls 500Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 30,
+              "description": "13-14 Boys 500Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "5-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 5
+            },
+            {
+              "number": 31,
+              "description": "13-14 Girls 400Y Medley Relay (Remaining Heats)",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 32,
+              "description": "13-14 Boys 400Y Medley Relay (Remaining Heats)",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 200Y Freestyle Relay swims only in prelims (no Finals occurrence). 13-14 500Y Freestyle check-in 8:45 AM. 13-14 400Y Medley Relay: remaining heats (beyond the fastest 2 / top 16) swim here at the end of prelims; fastest 2 heats swim in Saturday Finals.",
+      "locked": false
+    },
+    {
+      "id": "46f61df2-3871-4a3c-8969-0fd23fe0f186",
+      "name": "Saturday Afternoon Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "1:00 PM",
+      "warmup_time": "12:00 PM",
+      "pool_sessions": [
+        {
+          "id": "dfe65dec-f695-4b88-af12-c9b60b809b2c",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 55,
+              "description": "11-12 Girls 200Y Medley Relay",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 56,
+              "description": "11-12 Boys 200Y Medley Relay",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 57,
+              "description": "11-12 Girls 200Y Butterfly",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 58,
+              "description": "11-12 Boys 200Y Butterfly",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 59,
+              "description": "11-12 Girls 50Y Freestyle",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 60,
+              "description": "11-12 Boys 50Y Freestyle",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 61,
+              "description": "11-12 Girls 100Y Breaststroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 62,
+              "description": "11-12 Boys 100Y Breaststroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 63,
+              "description": "11-12 Girls 100Y Backstroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 64,
+              "description": "11-12 Boys 100Y Backstroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 65,
+              "description": "11-12 Girls 500Y Freestyle",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 66,
+              "description": "11-12 Boys 500Y Freestyle",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "c28aaadf-debe-423c-ae26-67b529f54d62",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10 & Under"
+          ],
+          "events": [
+            {
+              "number": 89,
+              "description": "10 & Under Girls 200Y Medley Relay",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 90,
+              "description": "10 & Under Boys 200Y Medley Relay",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 91,
+              "description": "10 & Under Girls 50Y Freestyle",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 92,
+              "description": "10 & Under Boys 50Y Freestyle",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 93,
+              "description": "10 & Under Girls 100Y Breaststroke",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 94,
+              "description": "10 & Under Boys 100Y Breaststroke",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 95,
+              "description": "10 & Under Girls 100Y Backstroke",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 96,
+              "description": "10 & Under Boys 100Y Backstroke",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 97,
+              "description": "10 & Under Girls 500Y Freestyle",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 98,
+              "description": "10 & Under Boys 500Y Freestyle",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "Two-pool split, Pool 1 = 11-12, Pool 2 = 10 & Under. 11-12 500Y Freestyle and 10&U 500Y Freestyle check-in 12:30 PM or 30 min before session start.",
+      "locked": false
+    },
+    {
+      "id": "4923edaf-7c50-4b43-b1f6-cb25df99b75f",
+      "name": "Saturday Finals",
+      "session_type": "Finals",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "not before 5:30 PM",
+      "warmup_time": "not before 4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "5f32c6d8-cbba-4178-a3d9-9751d3bae82d",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 21,
+              "description": "13-14 Girls 200Y Butterfly",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 22,
+              "description": "13-14 Boys 200Y Butterfly",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 23,
+              "description": "13-14 Girls 50Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 24,
+              "description": "13-14 Boys 50Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 25,
+              "description": "13-14 Girls 200Y Breaststroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 26,
+              "description": "13-14 Boys 200Y Breaststroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 27,
+              "description": "13-14 Girls 100Y Backstroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 28,
+              "description": "13-14 Boys 100Y Backstroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 29,
+              "description": "13-14 Girls 500Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 30,
+              "description": "13-14 Boys 500Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 31,
+              "description": "13-14 Girls 400Y Medley Relay (Fastest 2 Heats)",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 32,
+              "description": "13-14 Boys 400Y Medley Relay (Fastest 2 Heats)",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 400Y Medley Relay: fastest 2 heats (top 16 teams) swim here at the end of Finals; check-in 8:45 AM, relay cards due 8:45 AM/5:30 PM.",
+      "locked": false
+    },
+    {
+      "id": "a6fcae1d-aa3f-4b5e-818d-0b177f9726af",
+      "name": "Sunday Preliminaries",
+      "session_type": "Prelims",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "8:30 AM",
+      "warmup_time": "7:00 AM",
+      "pool_sessions": [
+        {
+          "id": "e9c0f4d4-d59d-4fcb-a2bd-549adb4b50df",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 33,
+              "description": "13-14 Girls 200Y Medley Relay",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 34,
+              "description": "13-14 Boys 200Y Medley Relay",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "5-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 5
+            },
+            {
+              "number": 37,
+              "description": "13-14 Girls 200Y Backstroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 38,
+              "description": "13-14 Boys 200Y Backstroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 39,
+              "description": "13-14 Girls 100Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 40,
+              "description": "13-14 Boys 100Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 41,
+              "description": "13-14 Girls 200Y Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 42,
+              "description": "13-14 Boys 200Y Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 35,
+              "description": "13-14 Girls 1650Y Freestyle (Remaining Heats)",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 36,
+              "description": "13-14 Boys 1650Y Freestyle (Remaining Heats)",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "13-14 200Y Medley Relay swims only in prelims. 13-14 1650Y Freestyle check-in 6:00 PM Saturday; all heats except the fastest 8 girls/8 boys swim here at the end of prelims. Event order in this session follows the literal Order of Events (not numeric order) per the meet announcement; Sunday Finals follow numeric event order instead.",
+      "locked": false
+    },
+    {
+      "id": "503f4a1d-bddd-446e-93f2-1e29c9f78833",
+      "name": "Sunday Afternoon Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "1:00 PM",
+      "warmup_time": "12:00 PM",
+      "pool_sessions": [
+        {
+          "id": "c28eb3a8-fa2c-4390-b625-c641422c5ff3",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 67,
+              "description": "11-12 Girls 200Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 68,
+              "description": "11-12 Boys 200Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 69,
+              "description": "11-12 Girls 50Y Butterfly",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 70,
+              "description": "11-12 Boys 50Y Butterfly",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 71,
+              "description": "11-12 Girls 200Y Individual Medley",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 72,
+              "description": "11-12 Boys 200Y Individual Medley",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 73,
+              "description": "11-12 Girls 50Y Backstroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 74,
+              "description": "11-12 Boys 50Y Backstroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 75,
+              "description": "11-12 Girls 100Y Freestyle",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 76,
+              "description": "11-12 Boys 100Y Freestyle",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 77,
+              "description": "11-12 Girls 200Y Breaststroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 78,
+              "description": "11-12 Boys 200Y Breaststroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 79,
+              "description": "11-12 Girls 400Y Medley Relay",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 80,
+              "description": "11-12 Boys 400Y Medley Relay",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Medley",
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "4a10915f-270c-464a-b021-5f4bd1fc1a32",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10 & Under"
+          ],
+          "events": [
+            {
+              "number": 99,
+              "description": "10 & Under Girls 200Y Freestyle Relay",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 100,
+              "description": "10 & Under Boys 200Y Freestyle Relay",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": true,
+              "relay_type": "Freestyle",
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 0,
+              "description": "10-minute break",
+              "gender": "",
+              "is_relay": false,
+              "relay_type": null,
+              "is_break": true,
+              "break_minutes": 10
+            },
+            {
+              "number": 101,
+              "description": "10 & Under Girls 50Y Butterfly",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 102,
+              "description": "10 & Under Boys 50Y Butterfly",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 103,
+              "description": "10 & Under Girls 200Y Individual Medley",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 104,
+              "description": "10 & Under Boys 200Y Individual Medley",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 105,
+              "description": "10 & Under Girls 50Y Backstroke",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 106,
+              "description": "10 & Under Boys 50Y Backstroke",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 107,
+              "description": "10 & Under Girls 100Y Freestyle",
+              "gender": "F",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 108,
+              "description": "10 & Under Boys 100Y Freestyle",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "Two-pool split, Pool 1 = 11-12, Pool 2 = 10 & Under. 11-12 400Y Medley Relay check-in 12:30 PM or 30 min before session start.",
+      "locked": false
+    },
+    {
+      "id": "afea9f10-a641-42ce-abaf-c91b7535b51d",
+      "name": "Sunday Finals",
+      "session_type": "Finals",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "not before 5:30 PM",
+      "warmup_time": "not before 4:30 PM",
+      "pool_sessions": [
+        {
+          "id": "e2c9562d-bb26-4d68-973e-bc32f8751583",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 35,
+              "description": "13-14 Girls 1650Y Freestyle (Fastest Heat)",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 36,
+              "description": "13-14 Boys 1650Y Freestyle (Fastest Heat)",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 37,
+              "description": "13-14 Girls 200Y Backstroke",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 38,
+              "description": "13-14 Boys 200Y Backstroke",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 39,
+              "description": "13-14 Girls 100Y Freestyle",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 40,
+              "description": "13-14 Boys 100Y Freestyle",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 41,
+              "description": "13-14 Girls 200Y Individual Medley",
+              "gender": "F",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 42,
+              "description": "13-14 Boys 200Y Individual Medley",
+              "gender": "M",
+              "age_group": "13-14",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "Fastest 8 girls and 8 boys of the 13-14 1650Y Freestyle swim here first (no AM/PM option), followed by remaining Finals events in numeric event order.",
+      "locked": false
+    }
+  ],
+  "officials": [],
+  "signups": [],
+  "deck_assignments": [],
+  "cj_task_defs": [],
+  "cj_task_assignments": [],
+  "cj_scope_overrides": {},
+  "deck_task_defs": [],
+  "deck_task_assignments": [],
+  "deck_scope_overrides": {},
+  "event_library": [],
+  "shirts_enabled": false,
+  "shirt_min_sessions": 4,
+  "shirt_bonus_session_ids": [],
+  "shirt_count_time_trials": false,
+  "radios_enabled": false,
+  "num_radios": 0,
+  "radio_labels": [],
+  "radio_pool_channels": {},
+  "radio_assignments": [],
+  "own_radio_equipment": [],
+  "radio_roles": [
+    "MR",
+    "AR",
+    "AO",
+    "TLCJ",
+    "CJ",
+    "DR"
+  ],
+  "radio_unavailable": []
+}

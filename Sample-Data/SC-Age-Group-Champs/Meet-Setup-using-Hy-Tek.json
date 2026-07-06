@@ -1,0 +1,1527 @@
+{
+  "name": "2026 NCS SC AG CHAMPS",
+  "host_club": "TAC",
+  "location": "Triangle Aquatic Center",
+  "meet_referee": "Trish Martin",
+  "admin_referee": "Jeffrey Childs",
+  "sanction_number": "",
+  "dates": "02/26/2026 \u2013 03/01/2026",
+  "logo_path": "M:/Python Scripts/deck-manager/Sample-Data/SC-Age-Group-Champs/nc_swimming_logo.png",
+  "sessions": [
+    {
+      "id": "c2ddf3c6-bf8a-4923-8cbf-e60907f1838e",
+      "name": "Thursday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-26",
+      "day": "Thursday",
+      "start_time": "5:30 PM",
+      "warmup_time": "3:30 PM",
+      "pool_sessions": [
+        {
+          "id": "f7cac6f8-be13-44b8-9e36-8aeab7b845f8",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14",
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 1,
+              "description": "1000Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 2,
+              "description": "1000Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 3,
+              "description": "200Y IM 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 4,
+              "description": "200Y IM 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 5,
+              "description": "400Y IM 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 6,
+              "description": "400Y IM 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 7,
+              "description": "800Y Freestyle Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 8,
+              "description": "800Y Freestyle Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "5437f3df-b870-4d3c-b254-559b8515584a",
+      "name": "Friday Prelims",
+      "session_type": "Prelims",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "8:30 AM",
+      "warmup_time": "6:30 AM",
+      "pool_sessions": [
+        {
+          "id": "9aad60d7-f693-4596-a191-b044195a27ea",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 9,
+              "description": "200Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 10,
+              "description": "200Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 11,
+              "description": "100Y Breaststroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 12,
+              "description": "100Y Breaststroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 13,
+              "description": "100Y Butterfly 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 14,
+              "description": "100Y Butterfly 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 15,
+              "description": "400Y IM 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 16,
+              "description": "400Y IM 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "419f663b-da9e-448f-a7e7-259a2d12aeeb",
+      "name": "Friday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "1:00 PM",
+      "warmup_time": "11:00 AM",
+      "pool_sessions": [
+        {
+          "id": "5401c880-27c8-4cde-942f-3510a1bc31ee",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 43,
+              "description": "200Y Freestyle 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 44,
+              "description": "200Y Freestyle 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 45,
+              "description": "50Y Breaststroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 46,
+              "description": "50Y Breaststroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 47,
+              "description": "100Y Butterfly 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 48,
+              "description": "100Y Butterfly 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 49,
+              "description": "100Y IM 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 50,
+              "description": "100Y IM 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 51,
+              "description": "200Y Backstroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 52,
+              "description": "200Y Backstroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 53,
+              "description": "400Y Freestyle Relay 11-12",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 54,
+              "description": "400Y Freestyle Relay 11-12",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "fb152267-7725-449c-90c2-9332580fc154",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10&Under"
+          ],
+          "events": [
+            {
+              "number": 81,
+              "description": "200Y Freestyle 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 82,
+              "description": "200Y Freestyle 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 83,
+              "description": "50Y Breaststroke 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 84,
+              "description": "50Y Breaststroke 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 85,
+              "description": "100Y Butterfly 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 86,
+              "description": "100Y Butterfly 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 87,
+              "description": "100Y IM 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 88,
+              "description": "100Y IM 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "489e3acd-b777-40e3-afef-d1c72cabcd04",
+      "name": "Friday Finals",
+      "session_type": "Finals",
+      "date": "2026-02-27",
+      "day": "Friday",
+      "start_time": "6:00 PM",
+      "warmup_time": "4:00 PM",
+      "pool_sessions": [
+        {
+          "id": "fc09bab3-6a83-4804-8297-d2135657fb56",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 9,
+              "description": "200Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 10,
+              "description": "200Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 11,
+              "description": "100Y Breaststroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 12,
+              "description": "100Y Breaststroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 13,
+              "description": "100Y Butterfly 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 14,
+              "description": "100Y Butterfly 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 15,
+              "description": "400Y IM 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 16,
+              "description": "400Y IM 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 17,
+              "description": "400Y Freestyle Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 18,
+              "description": "400Y Freestyle Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "088e5f9a-a47e-44f8-b7f6-b7a9cfb3cb94",
+      "name": "Saturday Prelims",
+      "session_type": "Prelims",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "8:30 AM",
+      "warmup_time": "6:30 AM",
+      "pool_sessions": [
+        {
+          "id": "8f71aa61-95c1-4e16-a648-67917ea12b2e",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 19,
+              "description": "200Y Freestyle Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 20,
+              "description": "200Y Freestyle Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 21,
+              "description": "200Y Butterfly 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 22,
+              "description": "200Y Butterfly 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 23,
+              "description": "50Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 24,
+              "description": "50Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 25,
+              "description": "200Y Breaststroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 26,
+              "description": "200Y Breaststroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 27,
+              "description": "100Y Backstroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 28,
+              "description": "100Y Backstroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 29,
+              "description": "500Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 30,
+              "description": "500Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 31,
+              "description": "400Y IM Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 32,
+              "description": "400Y IM Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Medley"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "2b429125-2abe-4aae-ab45-5c7cb352c66e",
+      "name": "Saturday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "1:00 PM",
+      "warmup_time": "11:00 AM",
+      "pool_sessions": [
+        {
+          "id": "ac2b3725-a50d-4077-b6af-fdb6b540b0ba",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 55,
+              "description": "200Y IM Relay 11-12",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 56,
+              "description": "200Y IM Relay 11-12",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 57,
+              "description": "200Y Butterfly 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 58,
+              "description": "200Y Butterfly 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 59,
+              "description": "50Y Freestyle 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 60,
+              "description": "50Y Freestyle 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 61,
+              "description": "100Y Breaststroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 62,
+              "description": "100Y Breaststroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 63,
+              "description": "100Y Backstroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 64,
+              "description": "100Y Backstroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 65,
+              "description": "500Y Freestyle 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 66,
+              "description": "500Y Freestyle 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "3820ca3a-2330-41b7-a2e6-6840e11d5515",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10&Under"
+          ],
+          "events": [
+            {
+              "number": 89,
+              "description": "200Y IM Relay 10&U",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 90,
+              "description": "200Y IM Relay 10&U",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 91,
+              "description": "50Y Freestyle 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 92,
+              "description": "50Y Freestyle 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 93,
+              "description": "100Y Breaststroke 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 94,
+              "description": "100Y Breaststroke 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 95,
+              "description": "100Y Backstroke 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 96,
+              "description": "100Y Backstroke 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 97,
+              "description": "500Y Freestyle 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 98,
+              "description": "500Y Freestyle 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "3188dee8-df46-4dff-8a87-3fc12b64c41f",
+      "name": "Sunday Prelims",
+      "session_type": "Prelims",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "8:30 AM",
+      "warmup_time": "6:30 AM",
+      "pool_sessions": [
+        {
+          "id": "312e4d4b-8665-43c0-b172-ea705bc1cbed",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 33,
+              "description": "200Y IM Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 34,
+              "description": "200Y IM Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 37,
+              "description": "200Y Backstroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 38,
+              "description": "200Y Backstroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 39,
+              "description": "100Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 40,
+              "description": "100Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 41,
+              "description": "200Y IM 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 42,
+              "description": "200Y IM 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 35,
+              "description": "1650Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 36,
+              "description": "1650Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "954ba182-b38e-4db5-9322-0948737298a1",
+      "name": "Sunday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "1:00 PM",
+      "warmup_time": "11:00 AM",
+      "pool_sessions": [
+        {
+          "id": "6fa3bc35-9d1e-4ae9-aa9b-7ac48abfcf1c",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "11-12"
+          ],
+          "events": [
+            {
+              "number": 67,
+              "description": "200Y Freestyle Relay 11-12",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 68,
+              "description": "200Y Freestyle Relay 11-12",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 69,
+              "description": "50Y Butterfly 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 70,
+              "description": "50Y Butterfly 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 71,
+              "description": "200Y IM 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 72,
+              "description": "200Y IM 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 73,
+              "description": "50Y Backstroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 74,
+              "description": "50Y Backstroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 75,
+              "description": "100Y Freestyle 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 76,
+              "description": "100Y Freestyle 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 77,
+              "description": "200Y Breaststroke 11-12",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 78,
+              "description": "200Y Breaststroke 11-12",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 79,
+              "description": "400Y IM Relay 11-12",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 80,
+              "description": "400Y IM Relay 11-12",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Medley"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        },
+        {
+          "id": "fc30ead9-8ff8-44ea-b628-4b7146d23404",
+          "pool_number": 2,
+          "name": "West",
+          "age_groups": [
+            "10&Under"
+          ],
+          "events": [
+            {
+              "number": 99,
+              "description": "200Y Freestyle Relay 10&U",
+              "gender": "G",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 100,
+              "description": "200Y Freestyle Relay 10&U",
+              "gender": "B",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 101,
+              "description": "50Y Butterfly 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 102,
+              "description": "50Y Butterfly 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 103,
+              "description": "200Y IM 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 104,
+              "description": "200Y IM 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 105,
+              "description": "50Y Backstroke 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 106,
+              "description": "50Y Backstroke 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 107,
+              "description": "100Y Freestyle 10&U",
+              "gender": "G",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 108,
+              "description": "100Y Freestyle 10&U",
+              "gender": "B",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "6a9a7ea8-3f8d-437d-8638-fc36529896dd",
+      "name": "Saturday Finals",
+      "session_type": "Finals",
+      "date": "2026-02-28",
+      "day": "Saturday",
+      "start_time": "6:00 PM",
+      "warmup_time": "4:00 PM",
+      "pool_sessions": [
+        {
+          "id": "2b6a5af2-b003-4a70-9127-15bd84caa5b2",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 19,
+              "description": "200Y Freestyle Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 20,
+              "description": "200Y Freestyle Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Freestyle"
+            },
+            {
+              "number": 21,
+              "description": "200Y Butterfly 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 22,
+              "description": "200Y Butterfly 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 23,
+              "description": "50Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 24,
+              "description": "50Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 25,
+              "description": "200Y Breaststroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 26,
+              "description": "200Y Breaststroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 27,
+              "description": "100Y Backstroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 28,
+              "description": "100Y Backstroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 29,
+              "description": "500Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 30,
+              "description": "500Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 31,
+              "description": "400Y IM Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 32,
+              "description": "400Y IM Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Medley"
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    },
+    {
+      "id": "cdc60912-3128-4051-bf6a-f75a75032834",
+      "name": "Sunday Finals",
+      "session_type": "Finals",
+      "date": "2026-03-01",
+      "day": "Sunday",
+      "start_time": "6:00 PM",
+      "warmup_time": "4:00 PM",
+      "pool_sessions": [
+        {
+          "id": "991cc9c3-fe41-4272-a329-7768f625f04d",
+          "pool_number": 1,
+          "name": "East",
+          "age_groups": [
+            "13-14"
+          ],
+          "events": [
+            {
+              "number": 33,
+              "description": "200Y IM Relay 13-14",
+              "gender": "Girls",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 34,
+              "description": "200Y IM Relay 13-14",
+              "gender": "Boys",
+              "is_relay": true,
+              "relay_type": "Medley"
+            },
+            {
+              "number": 37,
+              "description": "200Y Backstroke 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 38,
+              "description": "200Y Backstroke 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 39,
+              "description": "100Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 40,
+              "description": "100Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 41,
+              "description": "200Y IM 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 42,
+              "description": "200Y IM 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 35,
+              "description": "1650Y Freestyle 13-14",
+              "gender": "Girls",
+              "is_relay": false,
+              "relay_type": ""
+            },
+            {
+              "number": 36,
+              "description": "1650Y Freestyle 13-14",
+              "gender": "Boys",
+              "is_relay": false,
+              "relay_type": ""
+            }
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": ""
+        }
+      ],
+      "notes": "",
+      "locked": false
+    }
+  ],
+  "officials": [],
+  "signups": [],
+  "deck_assignments": [],
+  "cj_task_defs": [
+    {
+      "id": "default_00",
+      "phase": "Officials Meeting",
+      "description": "Sign In / Credentials",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_01",
+      "phase": "Officials Meeting",
+      "description": "Assignment",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_02",
+      "phase": "Officials Meeting",
+      "description": "Jurisdiction / Protocol / MAAP",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_03",
+      "phase": "Officials Meeting",
+      "description": "Stroke Briefing",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_04",
+      "phase": "Pre-Session",
+      "description": "Radio Distribution / Check",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_05",
+      "phase": "Pre-Session",
+      "description": "Assignment Sheets Distribution",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_06",
+      "phase": "Pre-Session",
+      "description": "Heat Sheets / OOF / Timeline",
+      "default_per_pool": true,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_07",
+      "phase": "Pre-Session",
+      "description": "Create and Distribute RTO Slips",
+      "default_per_pool": true,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_08",
+      "phase": "Pre-Session",
+      "description": "Prepare Timer Clipboards",
+      "default_per_pool": true,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_09",
+      "phase": "Pre-Session",
+      "description": "Lap Counters",
+      "default_per_pool": true,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_10",
+      "phase": "Session",
+      "description": "Start End Lane 1",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_11",
+      "phase": "Session",
+      "description": "Start End Lane N",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_12",
+      "phase": "Session",
+      "description": "Turn End Lane 1",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_13",
+      "phase": "Session",
+      "description": "Turn End Lane N",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_cj_relief",
+      "phase": "Session",
+      "description": "CJ Relief",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": false,
+      "session_ids": []
+    },
+    {
+      "id": "default_cj_relief2",
+      "phase": "Session",
+      "description": "CJ Relief 2",
+      "default_per_pool": true,
+      "is_position": true,
+      "is_custom": false,
+      "default_enabled": false,
+      "session_ids": []
+    },
+    {
+      "id": "default_16",
+      "phase": "Post-Session",
+      "description": "Collect Timer Clipboards",
+      "default_per_pool": true,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    },
+    {
+      "id": "default_17",
+      "phase": "Post-Session",
+      "description": "Radios",
+      "default_per_pool": false,
+      "is_position": false,
+      "is_custom": false,
+      "default_enabled": true,
+      "session_ids": []
+    }
+  ],
+  "cj_task_assignments": [],
+  "cj_scope_overrides": {},
+  "deck_task_defs": [
+    {
+      "id": "default_deck_00",
+      "phase": "Pre-Session",
+      "description": "Timer Briefing",
+      "default_per_pool": false,
+      "max_slots": 2,
+      "eligible_roles": "SR",
+      "is_custom": false,
+      "default_enabled": true,
+      "default_slot1_enabled": false,
+      "session_ids": []
+    },
+    {
+      "id": "default_deck_01",
+      "phase": "Pre-Session",
+      "description": "Invigilate",
+      "default_per_pool": true,
+      "max_slots": 2,
+      "eligible_roles": "DR",
+      "is_custom": false,
+      "default_enabled": true,
+      "default_slot1_enabled": false,
+      "session_ids": []
+    }
+  ],
+  "deck_task_assignments": [],
+  "deck_scope_overrides": {},
+  "event_library": [],
+  "shirts_enabled": false,
+  "shirt_min_sessions": 4,
+  "shirt_bonus_session_ids": [],
+  "shirt_count_time_trials": false,
+  "radios_enabled": false,
+  "num_radios": 0,
+  "radio_labels": [],
+  "radio_pool_channels": {},
+  "radio_assignments": [],
+  "own_radio_equipment": [],
+  "radio_roles": [
+    "MR",
+    "AR",
+    "AO",
+    "TLCJ",
+    "CJ",
+    "DR"
+  ],
+  "radio_unavailable": []
+}

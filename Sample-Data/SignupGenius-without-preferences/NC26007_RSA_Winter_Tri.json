@@ -1,0 +1,838 @@
+{
+  "_comment": "Deck Manager meet file \u2014 generated from 2026 RSA Winter Tri sanction NC26007",
+  "name": "2026 RSA Winter Tri",
+  "host_club": "Raleigh Swimming Association",
+  "location": "Pullen Aquatic Center, 410 Ashe Avenue, Raleigh, NC 27606",
+  "meet_director": "Beth Ward",
+  "meet_referee": "Corley Strunk",
+  "admin_referee": "John Strunk",
+  "sanction_number": "NC26007",
+  "dates": "January 16-18, 2026",
+  "sessions": [
+    {
+      "id": "c2a4f8ec-c44e-4c19-8c0c-fef7527f49de",
+      "name": "Session 1 \u2014 Friday Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "January 16, 2026",
+      "day": "Friday",
+      "warmup_time": "4:00 PM",
+      "start_time": "5:00 PM",
+      "notes": "All ages. All events are mixed gender (no gender split column in order of events). Positive check-in required for all events. Check-in deadline Ev 101 (11&O 400 IM): 4:15 PM. Check-in deadline Ev 102 (10&U 200 IM) and Ev 103 (Open 500 Free): 4:45 PM. Seeded fastest to slowest. 500 Free swimmers must supply their own counters. Coaches/general meeting: 3:45 PM. Officials meeting: 4:15 PM. Timers meeting: 4:30 PM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "aa8aefda-17b6-494f-8235-5f512834f0f1",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "11 & Over",
+            "10 & Under",
+            "Open"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 101,
+              "description": "11 & Over Mixed 400y IM",
+              "gender": "F",
+              "age_group": "11 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 102,
+              "description": "10 & Under Mixed 200y IM",
+              "gender": "M",
+              "age_group": "10 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 103,
+              "description": "Open Mixed 500y Freestyle",
+              "gender": "F",
+              "age_group": "Open",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9fee3653-86cd-45d9-beb3-a36798de05cc",
+      "name": "Session 2 \u2014 Saturday 13&O Prelims",
+      "session_type": "Prelims",
+      "date": "January 17, 2026",
+      "day": "Saturday",
+      "warmup_time": "7:00 AM",
+      "start_time": "8:30 AM",
+      "notes": "13 & Over prelims. Women's heat before Men's heat for each event. Finals (Session 4) split into 13-14 and 15 & Over; A final (top 8) and B final (next 8) per age group; B final before A final. Officials meeting: 7:45 AM. Timers meeting: 8:00 AM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "2756b581-a3f9-4268-9f04-d57e1c1ee142",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13 & Over"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 201,
+              "description": "13 & Over Girls 200y Breaststroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 202,
+              "description": "13 & Over Boys 200y Breaststroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 203,
+              "description": "13 & Over Girls 50y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 204,
+              "description": "13 & Over Boys 50y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 205,
+              "description": "13 & Over Girls 100y Backstroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 206,
+              "description": "13 & Over Boys 100y Backstroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 207,
+              "description": "13 & Over Girls 200y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 208,
+              "description": "13 & Over Boys 200y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 209,
+              "description": "13 & Over Girls 100y Butterfly",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 210,
+              "description": "13 & Over Boys 100y Butterfly",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f1f239-08ee-4d72-bc8a-b25996d27dce",
+      "name": "Session 3 \u2014 Saturday 12&U Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "January 17, 2026",
+      "day": "Saturday",
+      "warmup_time": "12:30 PM",
+      "start_time": "1:15 PM",
+      "notes": "12 & Under (and 11-12 for Ev 221). All events mixed gender. Technical suit ban in effect (USA Swimming Rule 102.8.1F). Officials meeting: 12:30 PM. Timers meeting: 12:45 PM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "83e6e323-9301-4021-b606-c4638a352d98",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "12 & Under",
+            "11-12"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 221,
+              "description": "11-12 Mixed 200y Breaststroke",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 222,
+              "description": "12 & Under Mixed 100y Butterfly",
+              "gender": "M",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 223,
+              "description": "12 & Under Mixed 50y Freestyle",
+              "gender": "F",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 224,
+              "description": "12 & Under Mixed 100y Backstroke",
+              "gender": "M",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 225,
+              "description": "12 & Under Mixed 200y Freestyle",
+              "gender": "F",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 226,
+              "description": "12 & Under Mixed 100y IM",
+              "gender": "M",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 227,
+              "description": "12 & Under Mixed 50y Breaststroke",
+              "gender": "F",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "834666b7-8fb7-42ed-b51d-b4231478cc85",
+      "name": "Session 4 \u2014 Saturday 13&O Finals",
+      "session_type": "Finals",
+      "date": "January 17, 2026",
+      "day": "Saturday",
+      "warmup_time": "5:00 PM",
+      "start_time": "6:00 PM",
+      "notes": "13 & Over finals. Split into 13-14 and 15 & Over age groups. B final before A final. Top 8 per age group in A final, next 8 in B final. Alternates should identify themselves to the starter before the B Final. Scratch from finals: admin table within 30 min of prelim results. Officials meeting: 5:15 PM. Timers meeting: 5:30 PM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "4b02dabb-0b21-4b8f-b699-c03a86d9af5c",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13 & Over"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 201,
+              "description": "13 & Over Girls 200y Breaststroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 202,
+              "description": "13 & Over Boys 200y Breaststroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 203,
+              "description": "13 & Over Girls 50y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 204,
+              "description": "13 & Over Boys 50y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 205,
+              "description": "13 & Over Girls 100y Backstroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 206,
+              "description": "13 & Over Boys 100y Backstroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 207,
+              "description": "13 & Over Girls 200y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 208,
+              "description": "13 & Over Boys 200y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 209,
+              "description": "13 & Over Girls 100y Butterfly",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 210,
+              "description": "13 & Over Boys 100y Butterfly",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faa16cd9-784b-4a13-97e4-21055c96b09e",
+      "name": "Session 5 \u2014 Sunday 13&O Prelims",
+      "session_type": "Prelims",
+      "date": "January 18, 2026",
+      "day": "Sunday",
+      "warmup_time": "7:00 AM",
+      "start_time": "8:30 AM",
+      "notes": "13 & Over prelims. Women's heat before Men's heat for each event. 1000 Free (Ev 301/302): positive check-in deadline 8:00 AM; seeded fastest to slowest. Fastest heat (8 per gender) of 1000 Free swims in finals (Session 7) \u2014 AM/PM option. All other 1000 Free heats swim at end of prelims. 1000 Free swimmers must supply own timers (prelims) and counters (prelims and finals). Officials meeting: 7:45 AM. Timers meeting: 8:00 AM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "e2ea20db-964d-40d8-9e91-938a69217b6e",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13 & Over"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 301,
+              "description": "13 & Over Girls 1000y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 302,
+              "description": "13 & Over Boys 1000y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 303,
+              "description": "13 & Over Girls 200y Butterfly",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 304,
+              "description": "13 & Over Boys 200y Butterfly",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 305,
+              "description": "13 & Over Girls 100y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 306,
+              "description": "13 & Over Boys 100y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 307,
+              "description": "13 & Over Girls 200y Backstroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 308,
+              "description": "13 & Over Boys 200y Backstroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 309,
+              "description": "13 & Over Girls 100y Breaststroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 310,
+              "description": "13 & Over Boys 100y Breaststroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 311,
+              "description": "13 & Over Girls 200y IM",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 312,
+              "description": "13 & Over Boys 200y IM",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "719604b4-0968-4dcc-8567-a20d0671b304",
+      "name": "Session 6 \u2014 Sunday 12&U Timed Finals",
+      "session_type": "Timed Finals",
+      "date": "January 18, 2026",
+      "day": "Sunday",
+      "warmup_time": "1:45 PM",
+      "start_time": "2:30 PM",
+      "notes": "12 & Under (and 11-12 for Ev 321, 324, 327). All events mixed gender. Technical suit ban in effect (USA Swimming Rule 102.8.1F). Officials meeting: 1:45 PM. Timers meeting: 2:00 PM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "4f7f3741-4cf1-4b44-8d63-472a3fcc1290",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "12 & Under",
+            "11-12"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 321,
+              "description": "11-12 Mixed 200y Butterfly",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 322,
+              "description": "12 & Under Mixed 50y Backstroke",
+              "gender": "M",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 323,
+              "description": "12 & Under Mixed 100y Freestyle",
+              "gender": "F",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 324,
+              "description": "11-12 Mixed 200y Backstroke",
+              "gender": "M",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 325,
+              "description": "12 & Under Mixed 50y Butterfly",
+              "gender": "F",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 326,
+              "description": "12 & Under Mixed 100y Breaststroke",
+              "gender": "M",
+              "age_group": "12 & Under",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 327,
+              "description": "11-12 Mixed 200y IM",
+              "gender": "F",
+              "age_group": "11-12",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0ef1f941-4a8e-43ec-88bf-7fe84f19bc63",
+      "name": "Session 7 \u2014 Sunday 13&O Finals",
+      "session_type": "Finals",
+      "date": "January 18, 2026",
+      "day": "Sunday",
+      "warmup_time": "5:00 PM",
+      "start_time": "6:00 PM",
+      "notes": "13 & Over finals. Split into 13-14 and 15 & Over age groups. B final before A final. Top 8 per age group in A final, next 8 in B final. 1000 Free (Ev 301/302): only fastest heat (8 per gender selecting PM) swims here. Scratch from finals: admin table within 30 min of prelim results. Officials meeting: 5:15 PM. Timers meeting: 5:30 PM.",
+      "locked": false,
+      "pool_sessions": [
+        {
+          "id": "627d4bd2-86cc-4e19-9b7b-39a23e97d578",
+          "pool_number": 1,
+          "name": "Pool 1",
+          "age_groups": [
+            "13 & Over"
+          ],
+          "num_lanes": 8,
+          "course": "SCY",
+          "notes": "",
+          "events": [
+            {
+              "number": 301,
+              "description": "13 & Over Girls 1000y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 302,
+              "description": "13 & Over Boys 1000y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": true,
+              "fastest_heat_finals": true
+            },
+            {
+              "number": 303,
+              "description": "13 & Over Girls 200y Butterfly",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 304,
+              "description": "13 & Over Boys 200y Butterfly",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 305,
+              "description": "13 & Over Girls 100y Freestyle",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 306,
+              "description": "13 & Over Boys 100y Freestyle",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 307,
+              "description": "13 & Over Girls 200y Backstroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 308,
+              "description": "13 & Over Boys 200y Backstroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 309,
+              "description": "13 & Over Girls 100y Breaststroke",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 310,
+              "description": "13 & Over Boys 100y Breaststroke",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 311,
+              "description": "13 & Over Girls 200y IM",
+              "gender": "F",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            },
+            {
+              "number": 312,
+              "description": "13 & Over Boys 200y IM",
+              "gender": "M",
+              "age_group": "13 & Over",
+              "course": "SCY",
+              "is_relay": false,
+              "deck_seeded": false,
+              "fastest_heat_finals": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_fixed_fields_comment": "Always present with these exact values for a new meet.",
+  "officials": [],
+  "signups": [],
+  "deck_assignments": [],
+  "cj_task_defs": [],
+  "cj_task_assignments": [],
+  "cj_scope_overrides": {},
+  "deck_task_defs": [],
+  "deck_task_assignments": [],
+  "deck_scope_overrides": {},
+  "event_library": [],
+  "shirts_enabled": false,
+  "shirt_min_sessions": 4,
+  "shirt_bonus_session_ids": [],
+  "radios_enabled": false,
+  "num_radios": 0,
+  "radio_labels": [],
+  "radio_pool_channels": {},
+  "radio_assignments": [],
+  "own_radio_equipment": [],
+  "radio_roles": [
+    "MR",
+    "AR",
+    "AO",
+    "TLCJ",
+    "CJ",
+    "DR"
+  ],
+  "radio_unavailable": []
+}
