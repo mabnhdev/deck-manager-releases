@@ -1,0 +1,251 @@
+Deck Manager — Third-Party Licenses
+=====================================
+This file lists the open-source components included in Deck Manager and
+their license terms.
+
+================================================================================
+1. DECK MANAGER
+================================================================================
+
+Copyright (c) 2026 Michael Berger. All rights reserved.
+
+The compiled application is licensed for personal, non-commercial use only,
+under a limited binary-use license. See LICENSE (included in this release
+and in the deck-manager-releases repository) for full terms.
+
+
+================================================================================
+2. PYTHON  (https://www.python.org)
+================================================================================
+
+Copyright (c) 2001-2025 Python Software Foundation. All rights reserved.
+
+Licensed under the PSF License Agreement.
+https://docs.python.org/3/license.html
+
+
+================================================================================
+3. REPORTLAB  (https://www.reportlab.com)
+================================================================================
+
+Version used: 4.4.10
+
+Copyright (c) 2000-2025 ReportLab Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+  * Neither the name of the company nor the names of its contributors may be
+    used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+NOTE: The free (community) edition of ReportLab is for non-commercial use
+only. Deck Manager is a non-commercial tool; this usage is consistent with
+that restriction.
+
+
+================================================================================
+4. PDFPLUMBER  (https://github.com/jsvine/pdfplumber)
+================================================================================
+
+Version used: 0.11.9
+
+Copyright (c) 2015 Jeremy Singer-Vine
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+================================================================================
+5. PDFMINER.SIX  (https://github.com/pdfminer/pdfminer.six)
+================================================================================
+
+Version used: 20251230
+
+Copyright (c) 2004-2025 Yusuke Shinyama and contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+================================================================================
+6. PILLOW  (https://python-pillow.org)
+================================================================================
+
+Version used: 12.1.1
+
+The Python Imaging Library (PIL) is
+
+    Copyright (c) 1997-2011 by Secret Labs AB
+    Copyright (c) 1995-2011 by Fredrik Lundh
+
+Pillow is the friendly PIL fork. It is
+
+    Copyright (c) 2010-2025 by Jeffrey A. Clark and contributors
+
+Like PIL, Pillow is licensed under the open source HPND License:
+
+By obtaining, using, and/or copying this software and/or its associated
+documentation, you agree that you have read, understood, and will comply
+with the following terms and conditions:
+
+Permission to use, copy, modify and distribute this software and its
+documentation for any purpose and without fee is hereby granted, provided
+that the above copyright notice appears in all copies, and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Secret Labs AB or the author not be
+used in advertising or publicity pertaining to distribution of the software
+without specific, written prior permission.
+
+
+================================================================================
+7. PYSPELLCHECKER  (https://github.com/barrust/pyspellchecker)
+================================================================================
+
+Version used: 0.9.0
+
+Copyright (c) 2018-2021 Tyler Barrus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Note: only the bundled English dictionary (resources/en.json.gz) is used and
+distributed by Deck Manager -- the package also ships dictionaries for
+several other languages, which are excluded from the build (see
+deck_manager.spec) since they're never loaded.
+
+
+================================================================================
+8. TKMACOSX  (https://github.com/Saadmairaj/tkmacosx)
+================================================================================
+
+Version used: 1.0.5
+Platform: macOS builds only (see requirements.txt environment marker)
+
+Copyright (c) Saad Mairaj
+
+Licensed under the Apache License, Version 2.0.
+Full text: https://www.apache.org/licenses/LICENSE-2.0
+
+
+================================================================================
+9. PYINSTALLER  (https://pyinstaller.org)
+================================================================================
+
+PyInstaller is used to build the Windows executable but is not distributed
+with the application. It is licensed under the GPL with a special exception
+that permits bundling with non-GPL applications.
+https://pyinstaller.org/en/stable/license.html
+
+
+================================================================================
+10. CAIROSVG  (https://cairosvg.org)
+================================================================================
+
+Version used: 2.9.0
+Build-tooling only — NOT distributed with the application. Used solely by
+build_icns.py to regenerate deck_manager.ico/.icns from
+deck_manager_icon.svg during the build process (see build_windows.sh /
+build_mac.sh); it is never imported by the app itself and is not bundled
+into the frozen executable.
+
+Copyright (c) Kozea and contributors.
+
+Licensed under the GNU Lesser General Public License v3.0 or later
+(LGPL-3.0-or-later).
+Full text: https://www.gnu.org/licenses/lgpl-3.0.html
+
+
+================================================================================
+11. PANDOC  (https://pandoc.org)
+================================================================================
+
+Build-tooling only — NOT distributed with the application. Used solely by
+the release workflow (.github/workflows/release.yml) to convert
+Public-Release/README.md to Read-Me-First.pdf for the public
+deck-manager-releases repo; never imported by the app itself and not
+bundled into the frozen executable.
+
+Copyright (c) 2006-2025 John MacFarlane.
+
+Licensed under the GNU General Public License v2.0 or later
+(GPL-2.0-or-later).
+Full text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+
+================================================================================
+12. WKHTMLTOPDF  (https://wkhtmltopdf.org)
+================================================================================
+
+Build-tooling only — NOT distributed with the application. Used solely as
+pandoc's PDF engine in the release workflow (see PANDOC above); never
+imported by the app itself and not bundled into the frozen executable.
+
+Copyright (c) 2010 wkhtmltopdf authors.
+
+Licensed under the GNU Lesser General Public License v3.0 or later
+(LGPL-3.0-or-later).
+Full text: https://www.gnu.org/licenses/lgpl-3.0.html
+

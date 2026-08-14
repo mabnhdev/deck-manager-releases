@@ -7,6 +7,9 @@
   "sanction_number": "XX26001",
   "dates": "March 19-22, 2026",
   "logo_path": "",
+  "logo_data": "",
+  "logo_filename": "",
+  "_logo_comment": "logo_path is legacy/deprecated -- leave blank. A logo is normally added later in-app (Meet Setup > Browse for logo), which fills in logo_data (base64 image bytes) and logo_filename automatically. Not something to populate from a sanction document.",
   "_sessions_comment": [
     "sessions: ordered list of all sessions in chronological order.",
     "session_type must be exactly one of: 'Prelims', 'Finals', 'Timed Finals', 'Time Trials'",
@@ -447,5 +450,10 @@
     "DR"
   ],
   "radio_unavailable": [],
-  "auto_assign_targets": {}
+  "auto_assign_targets": {},
+  "protocols": [],
+  "jurisdiction_text": "",
+  "relay_takeoff_text": "",
+  "protocol_notes_text": "",
+  "_protocols_comment": "Deck-official protocols (Protocols tab): protocols is normally left empty here -- it's populated in-app either via 'Load Defaults' (bundled short/long-course starter protocols) or by adding entries manually, not from a sanction document. jurisdiction_text/relay_takeoff_text/protocol_notes_text are meet-wide free-text fields, also normally filled in later in-app rather than during initial setup."
 }
