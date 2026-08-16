@@ -17,9 +17,11 @@ documentation for each version.
 **1. Download and install**
 Grab the installer for your platform from the
 [Latest Release](https://github.com/mabnhdev/deck-manager-releases/releases/latest)
-page (`DeckManagerSetup-x.x.x.exe` for Windows, `DeckManager-x.x.x.dmg` for
-macOS), and see the **Installation Guide** attached to that release for
-step-by-step setup instructions.
+page (`DeckManagerSetup-x.x.x.exe` for Windows, or for macOS
+`DeckManager-x.x.x-arm64.dmg` for Apple Silicon / `DeckManager-x.x.x-x86_64.dmg`
+for Intel — not sure which you have? Apple menu → About This Mac → "Chip"
+means Apple Silicon, "Processor" means Intel), and see the **Installation
+Guide** attached to that release for step-by-step setup instructions.
 
 **2. Take the Quick-Start walkthrough**
 Once installed, open the **Quick-Start** guide (also attached to the
