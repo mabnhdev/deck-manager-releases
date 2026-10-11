@@ -1,51 +1,73 @@
-Deck Manager — Binary License
+Deck Manager License
 
 Copyright (c) 2026 Michael Berger. All rights reserved.
 
-This license governs use of the compiled Deck Manager application
-("the Software") distributed as a release in this repository. It does not
-apply to and does not grant any rights to the Software's source code.
+This license governs use and redistribution of the compiled Deck Manager
+application and its accompanying documentation ("the Software"). It does
+not apply to, and grants no rights in, the Software's source code, which
+is not publicly released.
 
 1. Grant of License
-Subject to the terms below, you are granted a personal, non-exclusive,
-non-transferable, revocable license to download, install, and use the
-Software, for non-commercial use, on devices you own or control.
+You are granted a free, worldwide, non-exclusive license to:
+  a. install and use the Software, on any number of devices, for
+     non-commercial purposes; and
+  b. copy and redistribute the Software, unmodified and free of charge,
+     provided that a copy of this license accompanies every copy you
+     distribute.
 
-2. Restrictions
-You may not:
-  a. Redistribute, sell, rent, lease, or sublicense the Software, in
-     whole or in part;
-  b. Reverse engineer, decompile, disassemble, or otherwise attempt to
+2. Non-Commercial Use Only
+The Software may not be used or distributed for commercial purposes.
+"Commercial purposes" means any use or distribution primarily intended
+for or directed toward commercial advantage or monetary compensation, including selling,
+renting, or licensing the Software, charging a fee for it, or bundling it
+with a product or service that is sold. Using the Software to help
+organize and run swim meets -- including by volunteers, clubs, and
+governing bodies -- is non-commercial use.
+
+For commercial use, contact the copyright holder to discuss a separate
+commercial license.
+
+3. Other Restrictions
+In addition, you may not:
+  a. Sublicense the Software. Everyone who receives a copy receives a
+     license directly from the copyright holder under these same terms;
+  b. Modify the Software or create derivative works based on it, or
+     distribute any modified copy;
+  c. Reverse engineer, decompile, disassemble, or otherwise attempt to
      derive the source code of the Software, except to the extent
      applicable law expressly permits despite this restriction;
-  c. Modify the Software or create derivative works based on it;
   d. Remove or alter any copyright, trademark, or other proprietary
-     notice contained in or displayed by the Software;
-  e. Use the Software for any commercial purpose without the prior
-     written consent of the copyright holder.
+     notice contained in or displayed by the Software, or remove or alter
+     this license from any copy you distribute.
 
-3. Ownership
+4. Source Code and Reserved Rights
+No license to the Software's source code is granted. All rights not
+expressly granted in this license are reserved by the copyright holder.
+
+5. Ownership
 The Software is licensed, not sold. The copyright holder retains all
 right, title, and interest in and to the Software, including all
-intellectual property rights. No rights are granted except as expressly
-stated in this license.
+intellectual property rights.
 
-4. No Warranty
+6. No Warranty
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
-5. Limitation of Liability
+7. Limitation of Liability
 IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES,
 OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
 OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
 THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-6. Termination
+8. Termination
 This license terminates automatically if you violate any of its terms.
-Upon termination, you must stop using the Software and delete all copies
-in your possession.
+Upon termination, you must stop using and distributing the Software and
+delete all copies in your possession.
 
 Third-party components bundled with the Software are licensed under
-their own respective terms; see LICENSES.txt (attached to each release)
-for details.
+their own respective terms; see LICENSES.txt (distributed with the
+Software) for details.
+
+For commercial licensing inquiries, contact: Michael Berger
+(https://github.com/mabnhdev)

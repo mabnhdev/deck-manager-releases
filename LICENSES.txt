@@ -9,9 +9,10 @@ their license terms.
 
 Copyright (c) 2026 Michael Berger. All rights reserved.
 
-The compiled application is licensed for personal, non-commercial use only,
-under a limited binary-use license. See LICENSE (included in this release
-and in the deck-manager-releases repository) for full terms.
+The compiled application may be used and redistributed free of charge for
+non-commercial purposes, provided the Deck Manager License (the LICENSE file
+distributed with the application) accompanies each copy. The source code is
+not publicly released.
 
 
 ================================================================================
@@ -28,7 +29,7 @@ https://docs.python.org/3/license.html
 3. REPORTLAB  (https://www.reportlab.com)
 ================================================================================
 
-Version used: 4.4.10
+Version used: 5.0.1
 
 Copyright (c) 2000-2025 ReportLab Inc. All rights reserved.
 
@@ -65,7 +66,7 @@ that restriction.
 4. PDFPLUMBER  (https://github.com/jsvine/pdfplumber)
 ================================================================================
 
-Version used: 0.11.9
+Version used: 0.11.10
 
 Copyright (c) 2015 Jeremy Singer-Vine
 
@@ -92,7 +93,7 @@ THE SOFTWARE.
 5. PDFMINER.SIX  (https://github.com/pdfminer/pdfminer.six)
 ================================================================================
 
-Version used: 20251230
+Version used: 20260107
 
 Copyright (c) 2004-2025 Yusuke Shinyama and contributors
 
@@ -119,7 +120,7 @@ THE SOFTWARE.
 6. PILLOW  (https://python-pillow.org)
 ================================================================================
 
-Version used: 12.1.1
+Version used: 12.3.0
 
 The Python Imaging Library (PIL) is
 
@@ -149,7 +150,7 @@ without specific, written prior permission.
 7. PYSPELLCHECKER  (https://github.com/barrust/pyspellchecker)
 ================================================================================
 
-Version used: 0.9.0
+Version used: 0.9.1
 
 Copyright (c) 2018-2021 Tyler Barrus
 
@@ -204,7 +205,7 @@ https://pyinstaller.org/en/stable/license.html
 10. CAIROSVG  (https://cairosvg.org)
 ================================================================================
 
-Version used: 2.9.0
+Version used: 2.9.1
 Build-tooling only — NOT distributed with the application. Used solely by
 build_icns.py to regenerate deck_manager.ico/.icns from
 deck_manager_icon.svg during the build process (see build_windows.sh /
