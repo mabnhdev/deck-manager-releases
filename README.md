@@ -27,7 +27,11 @@ Guide** attached to that release for step-by-step setup instructions.
 Once installed, open the **Quick-Start** guide (also attached to the
 release) for a short, hands-on walkthrough of setting up your first meet.
 
-**3. Go deeper with the User Manual**
+**3. Watch the walkthrough video**
+A narrated walkthrough of running a meet in Deck Manager
+(`deck_manager_walkthrough.mp4`) is attached to the same release.
+
+**4. Go deeper with the User Manual**
 For complete, section-by-section documentation of every tab and feature,
 see the full **Deck Manager User Manual**, attached to the same release.
 

@@ -15,9 +15,13 @@ A fully-annotated example is provided in `deck_manager_meet_template.json`.
 
 - Output **only** valid JSON — no markdown fences, no commentary outside the JSON.
 - Every `id` field must be a unique UUID4 string (use `uuid.uuid4()` or equivalent).
-- Use `_comment` keys freely inside the JSON for notes — the app ignores/strips
-  them on save, so they're safe for documentation but never rely on the app
-  preserving them.
+- **`deck_manager_meet_template.json` contains `_comment`-prefixed keys
+  (`_fixed_fields_comment`, `_sessions_comment`, `_events_comment`, etc.)
+  purely to explain the template to you while you read it. These are
+  template scaffolding, not data — remove every one of them from your
+  output. Your output should contain no key starting with `_` unless you
+  are deliberately adding your own new note (optional, and unrelated to
+  the template's own comment keys above).
 - Match field order and field presence to `deck_manager_meet_template.json`
   exactly (see "Field order" below) — this mirrors what the app itself
   produces when it saves a file.
@@ -28,13 +32,13 @@ A fully-annotated example is provided in `deck_manager_meet_template.json`.
 
 | Field | Type | Source in sanction |
 |---|---|---|
-| `name` | string | Full meet name |
+| `name` | string | Full meet name, exactly as titled in the sanction — do not append the host city/state or venue even if you know them; that belongs in `location` instead |
 | `host_club` | string | Hosting team name |
 | `location` | string | Facility name + full address |
 | `meet_referee` | string | Meet Referee name |
 | `admin_referee` | string | Administrative Referee name (or "TBD") |
 | `sanction_number` | string | Sanction number |
-| `dates` | string | Human-readable meet-wide date range, e.g. "July 16-19, 2026" |
+| `dates` | string | Human-readable meet-wide date range, e.g. "July 16 - 19, 2026" (same-month) or "February 26 - March 1, 2026" (spanning months) — always a spaced hyphen |
 
 **Field order** at the top level: `name`, `host_club`, `location`,
 `meet_referee`, `admin_referee`, `sanction_number`, `dates`,
@@ -67,6 +71,16 @@ course is itself LCM.
 ### Sessions
 
 Create one session object per row in the meet schedule table.
+
+**`name`** — build from the day and what the session actually is, e.g.
+`"Thursday Timed Finals"`, `"Friday Preliminaries"`, `"Friday Finals"`. Keep
+it brief — a plain `"Friday Preliminaries"` is exactly as clear as `"Friday
+Morning Preliminaries"` when Friday only has one Preliminaries session, so
+prefer the shorter form. Only add a time-of-day qualifier
+(`"Morning"`/`"Afternoon"`/`"Evening"`) when a single day genuinely has
+**more than one session of the same `session_type`** and the plain name
+would otherwise collide — that's the only case where the qualifier adds
+information.
 
 **`session_type`** — must be exactly one of:
 - `"Prelims"` — morning preliminary heats (Prelim/Finals format)
@@ -111,11 +125,33 @@ facility section only describes one pool with one lane count, use a single
 `pool_session` for every session in the meet, including Timed Finals
 sessions.
 
-When a genuine multi-pool split is confirmed (this is most common for SCY
-dual-pool facilities running age-group Timed Finals sessions split by
-gender): alternate which gender is assigned Pool 1 across successive
-Timed Finals sessions (e.g. Girls=Pool1 on session A, Boys=Pool1 on session
-B, Girls=Pool1 on session C, ...).
+**The tell-tale sign of a genuine multi-pool session is two or more
+schedule blocks sharing the exact same day, start time, AND warm-up
+time.** When the facility supports simultaneous multi-pool competition
+and you see this pattern, those blocks are **one `session` with multiple
+`pool_sessions`** — never two (or more) separate `session` objects that
+merely happen to start at the same time. This applies **regardless of
+what the blocks are split by** — the split is most often by age group
+(e.g. "11-12 Timed Finals" and "10 & Under Timed Finals" both at 1:00 PM),
+but can also be by gender, or another category entirely. Do not assume
+"multi-pool" only ever means a gender split; the deciding factor is
+always simultaneous timing at a multi-pool facility, not the specific
+category the sanction uses to label each block. A common mistake is
+treating each same-time block as its own session (e.g. producing
+"Friday 11-12 Timed Finals" and "Friday 10 & Under Timed Finals" as two
+separate sessions) — if they share identical day/start_time/warmup_time
+at a confirmed multi-pool facility, they belong in one session's
+`pool_sessions` list instead, each with its own `age_groups` (or
+`notes`) describing what actually swims there.
+
+When a genuine multi-pool split is confirmed and it happens to be split
+by gender specifically (this is common for SCY dual-pool facilities
+running age-group Timed Finals sessions split by gender): alternate
+which gender is assigned Pool 1 across successive Timed Finals sessions
+(e.g. Girls=Pool1 on session A, Boys=Pool1 on session B, Girls=Pool1 on
+session C, ...). When the split is by age group instead, pool numbering
+doesn't need to alternate — just assign pool_number consistently and
+describe each pool's age group(s) in `age_groups`/`notes`.
 
 **Pool session fields:**
 
@@ -126,12 +162,14 @@ B, Girls=Pool1 on session C, ...).
 | `age_groups` | list of strings: `["11-12", "13-14"]`, `["10 & Under"]` |
 | `num_lanes` | integer, from facility description (typically 8 or 10) |
 | `course` | `"SCY"`, `"SCM"`, or `"LCM"` |
-| `notes` | `"Girls"` or `"Boys"` for genuinely split-gender pools, else `""` |
+| `notes` | `"Girls"` or `"Boys"` for genuinely split-gender pools, `"11-12"` /
+  `"10 & Under"` etc. for genuinely split-age-group pools, else `""` |
+| `start_area_lane_n` | boolean, always `false` (a sanction never says where the deck officials' start area is; the Chief Judge sets it later in Deck Manager) |
 | `events` | list of event dicts, see below |
 
 **Field order** on a pool_session object: `id`, `pool_number`, `name`,
-`age_groups`, `events`, `num_lanes`, `course`, `notes`. (`events` comes
-**before** `num_lanes`/`course`/`notes`.)
+`age_groups`, `events`, `num_lanes`, `course`, `notes`, `start_area_lane_n`.
+(`events` comes **before** `num_lanes`/`course`/`notes`.)
 
 ---
 
@@ -279,7 +317,9 @@ an empty meet with no officials or assignments yet), in this order:
 "own_radio_equipment": [],
 "radio_roles": ["MR", "AR", "AO", "TLCJ", "CJ", "DR"],
 "radio_unavailable": [],
-"auto_assign_targets": {}
+"radio_spares": [],
+"auto_assign_targets": {},
+"auto_assign_targets_by_type": {}
 ```
 
 ---
@@ -302,6 +342,11 @@ an empty meet with no officials or assignments yet), in this order:
 - **10&Under / age-group Timed Finals sessions** — only split into two pools
   if the facility genuinely supports two simultaneous competition pools
   (common for SCY meets carved from one facility); otherwise single pool.
+  If it does, and the schedule lists (for example) "11-12 Timed Finals" and
+  "10 & Under Timed Finals" at the identical day/start_time/warmup_time,
+  that is one session with two pool_sessions (one per age group) — not two
+  separate sessions that coincidentally share a start time. See "Pool
+  sessions" above.
 - **Thursday/mixed-block Timed Finals sessions** — may have a mix of age
   groups (e.g. 13-14 relays, 11-12 individual). Still single pool unless a
   genuine multi-pool split is confirmed.
@@ -310,6 +355,26 @@ an empty meet with no officials or assignments yet), in this order:
   same number and rebuild the description from the Prelims entry.
 - **Events numbered in one block, swum in another** — see dedicated section
   above; place the event only where it's actually contested.
+- **Qualifying-time substitution notes are not event information — ignore
+  them for extraction purposes.** Sanctions often let a swimmer enter one
+  event using a qualifying time achieved in a *different* event (e.g. "a
+  1650Y Freestyle qualifier may enter the 1000Y Freestyle using their 1650Y
+  time," or "a 200Y IM qualifying time also qualifies for the 100Y IM").
+  This is purely about which time a swimmer may use to become *eligible*
+  to enter an event — it says nothing about which events are actually
+  contested, and it never means the substitute event (the 1650Y, the 200Y
+  IM) is itself swum at this meet, or that the real event (the 1000Y, the
+  100Y IM) should be renamed, merged, or skipped. The Order of Events
+  table alone determines which events exist and what they're called;
+  never let an eligibility/substitution note override or explain away
+  what that table literally shows.
+- **Don't infer a break, or any other event, exists in a session just
+  because a similar session elsewhere in the meet has one.** Each
+  session's Order of Events must be read on its own — a Saturday
+  Preliminaries session having a "5-minute break" does not mean Friday
+  Preliminaries has one too, even if the two sessions otherwise look
+  similar. Only include a break where that specific session's table
+  actually shows one, with the exact duration given there.
 - **Breaks and exhibition events** — see dedicated sections above; both must
   appear as real entries in `events`, positioned exactly where they occur
   in the Order of Events.
@@ -320,9 +385,12 @@ an empty meet with no officials or assignments yet), in this order:
 
 See `deck_manager_meet_template.json` for a fully worked example including:
 a single-pool Timed Finals session with a heat-split event (heats 1-3 /
-heats 4+), a Prelims session with a scheduled break, and a Finals session
-with a heat-split event interspersed among other events, a break, and a
-Mixed-gender exhibition event.
+heats 4+), a Prelims session with a scheduled break, a Finals session with
+a heat-split event interspersed among other events, a break, and a
+Mixed-gender exhibition event, and a genuine **multi-pool** Timed Finals
+session (Saturday) split by age group across two simultaneous pools —
+study that last one closely, since a same-time multi-pool split being
+mistaken for two separate sessions is a common extraction error.
 
 ---
 
@@ -334,6 +402,7 @@ Mixed-gender exhibition event.
 - [ ] No session has zero `pool_sessions`
 - [ ] No pool_session has zero `events`
 - [ ] Multi-pool splits are used **only** where the facility genuinely supports simultaneous multi-pool competition — default is one pool per session
+- [ ] Checked for two or more schedule blocks sharing the identical day/start_time/warmup_time at a multi-pool facility (whatever they're split by — age group, gender, etc.) — if found, merged into **one** session with multiple `pool_sessions`, not left as separate sessions
 - [ ] `course` reflects the meet's actual conforming course (check the meet title/classification, don't default to SCY)
 - [ ] All non-break events have `number`, `description`, `gender`, `age_group`, `course`,
       `is_relay`, `deck_seeded`, `fastest_heat_finals`
@@ -341,9 +410,15 @@ Mixed-gender exhibition event.
 - [ ] `deck_seeded` matches the sanction's positive check-in table exactly — not inferred from distance
 - [ ] Events split across heats appear as repeated entries (same number) with heat labels in `description`, in their literal Order-of-Events position
 - [ ] Events numbered in one block but swum in another appear only in the session where they're actually contested
+- [ ] No event was skipped, renamed, or merged because of a qualifying-time substitution/eligibility note (e.g. "X qualifiers may enter Y") — those describe entry eligibility only, never which events are contested
+- [ ] No break (or other event) was added to a session just because a similar session elsewhere in the meet has one — each session's own Order of Events table was checked individually
+- [ ] For each session, counted the individual event entries actually listed in the sanction's Order of Events (including breaks and exhibition events, matching however the source counts them) and confirmed your extracted `events` list has the same count — a mismatched count is the most common way an event gets silently dropped, especially when two same-stroke events of different distances appear close together (e.g. a 100 IM and a 400 IM in the same block)
 - [ ] Scheduled breaks appear as `is_break: true` entries with the exact shape shown above, at their correct position
 - [ ] Mixed-gender/Para exhibition events are included at their correct position
 - [ ] Finals sessions contain the same event numbers as their Prelims counterpart
 - [ ] Field order on session / pool_session / event objects matches the template
-- [ ] Fixed fields are present and empty, in the order shown above
+- [ ] Fixed fields are present and empty, in the order shown above — use `""` for empty strings, `[]` for empty lists, `{}` for empty objects; never omit a fixed field or set it to `null`
 - [ ] Output is valid JSON with no trailing commas
+- [ ] Every `_comment`-prefixed key from the template has been removed from
+      the output — they exist only to guide extraction, not to appear in
+      the final JSON
